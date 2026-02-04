@@ -131,7 +131,7 @@ public class EnrollmentServiceTest {
     }
 
     //crear una matricula valida y Verificar guardado con ArgumentCaptor
-    /*@Test
+    @Test
     void createEnrollment_validData_shouldSaveEnrollment_VerifyWithArgumentCaptor() {
         //ARRANGE
         String email = "paul@espe.edu.ec";
@@ -159,5 +159,5 @@ public class EnrollmentServiceTest {
         //assertNotNull(captured.getId());
 
 
-    }*/
+    }
 }
